@@ -49,10 +49,6 @@
      padding: 1em;
    }
 
-   .page__logo-container {
-     text-align: center;
-   }
-
    .page__logo {
      display: block;
      padding: 1em;
@@ -126,8 +122,10 @@
 
    .product {
      padding: 1em;
-     max-width: 24em;
+     max-width: 20em;
      display: inline-block;
+     margin-bottom: 3em;
+     vertical-align: top;
    }
 
    .gallery {
@@ -149,5 +147,39 @@
           display: inline-block;
           width: calc(100% - 2 * var(--indent));
      }
+   }
+
+   .page__footer {
+     text-align: center;
+   }
+
+   .footer-box {
+     padding: 2em;
+     background-color: var(--gray, gray);
+   }
+
+   .footer-content {
+     text-decoration: none;
+     color: var(--light, white);
+   }
+
+   .max-box {
+     text-align: center;
+     background-color: var(--gray, gray);
+     color: var(--light, white);
+     padding: 2em;
+   }
+
+   .max-header {
+    margin: 0;
+    font-size: 3em;
+   }
+
+   .big-max {
+     font-size: 2em;
+   }
+
+   h2 {
+    font-size: 2em;
    }
 }
